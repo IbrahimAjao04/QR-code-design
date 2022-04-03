@@ -1,4 +1,4 @@
-.wrapper{
+body{
     background-color:  hsl(212, 45%, 89%);
     height: 100vh;
 }
@@ -13,7 +13,14 @@
     border-radius: 8px;
     width: 18%;
     padding: 10px;
-    /*height: 100vh;*/
+}
+@media only screen and (max-width: 900px){
+    .container-wrapper{
+        width: 100%;
+    }
+    .wrapper-container{
+        padding: 20px;
+    }
 }
 .text-improve{
     font-family: outfit;
